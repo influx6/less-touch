@@ -6,9 +6,9 @@ A simple timer based less file watcher,updates your css files accordingly;
 ##  Install:  
 		 ```npm install less-touch -g ```
 			
-##  How To:
+#   How To:
   
-  ###  CommandLine:
+  ##  CommandLine:
 	Just create a empty file called build_less or buildless or build-less in 
 	your projects root directory with a corresponding json object map like below,
 	the keys must be in lowercase as below:
@@ -23,7 +23,7 @@ A simple timer based less file watcher,updates your css files accordingly;
 		
 	Save,navigate to your projects roots and run **"less-touch"** in your terminal!
 
-  ###  As a library: 
+  ##  As a library: 
    	Simple require the less file after installation with NPM or after copying 
    	the less-touch.js,nodelib.js files  from the "/lib" folder into your project ,require them 
    	into your projects as follows
