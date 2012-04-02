@@ -28,7 +28,8 @@ How To:
 	Enjoy!
 	
    As a library: 
-   	Simple require the less file after installation with NPM or after copying the less-touch.js,nodelib.js  files  from the "/lib" folder into your project ,require them into your projects as follows
+   	Simple require the less file after installation with NPM or after copying the less-touch.js,nodelib.js  	 
+   	files  from the "/lib" folder into your project ,require them into your projects as follows
    	
    	var fs = require('fs'),
 	path = require('path'),
