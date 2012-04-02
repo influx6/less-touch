@@ -23,7 +23,7 @@ How To:
 			"timeout" : 3000
 		}
 		
-	Once done and save,simple run "less-touch" in your terminal!
+	Once done and save,navigate to your projects roots and run "less-touch" in your terminal!
 	
 	Enjoy!
 	
@@ -35,17 +35,11 @@ How To:
 	path = require('path'),
 	less = require('less'),
 	nodelib = require("./nodelib"),
-	less_watcher = require("./less-touch").LessTouch(fs,path,less,nodelib);
+	less_touch = require("./less-touch").LessTouch(fs,path,less,nodelib);
 	
 	settings =  {"less" : "path to your less files",	"css" : "path to save css files to", 	"timeout" : "desired time out in milliseconds" };
 	
-	eg settings = {
-			"less" : "./assets/less",
-			
-			"css" : "./assets/css",
+	eg settings = { "less" : "./assets/less",  "css" : "./assets/css","timeout" : 3000 };
 	
-			"timeout" : 3000
-		};
 	Then simple call the init function of the less-touch library.
-		
-	 less_watcher.init(settings);
+		 less_touch.init(settings);
