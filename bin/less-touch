@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+path = require('path'),
+less = require('less'),
+lib = path.normalize(path.resolve(__dirname+"/../lib")),
+nodelib = require(lib + "/nodelib"),
+less_watcher = require(lib + "/less-touch").LessTouch(fs,path,less,nodelib).init_cmd();
+
+

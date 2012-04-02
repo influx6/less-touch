@@ -1,0 +1,48 @@
+{
+	"name":"less-touch",
+	"version":"0.0.1",
+	
+	"description": "a node script to simplify your less conversion life",
+	
+	"main":"./lib/less-touch",
+	
+	"bin":{
+		"less-touch" : "./bin/less-touch"
+	},
+	
+	"engines":{
+		"node" : ">= 0.4.0"
+	},
+	
+	"keywords":[
+		"less",
+		"watcher",
+		"less-touch",
+		"file monitoring",
+		"less file monitoring"
+	],
+	
+	"owners":{
+		"name":"Alex Ewetumo",
+		"email":"trinoxf@gmail.com"
+	},
+		
+	"licenses":{
+		"type":"MIT",
+      		"url": "http://mths.be/mit"
+	},
+	
+	"repository":{
+		"type":"git",
+		"url":"git://github.com/influx6/less-touch.git"
+	},
+	
+	"directories":{
+		"lib":"./lib",
+		"doc":"./doc"
+	},
+	
+	"Dependencies":{
+		"less" : ">= 1.2.2"
+	}
+}
