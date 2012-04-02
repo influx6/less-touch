@@ -12,7 +12,7 @@ Install:
 How To:
   
   CommandLine:
-	Just create a empty file called build_less/buildless/build-less in your projects root directory
+	Just create a empty file called build_less or buildless or build-less in your projects root directory
 	with a corresponding json object map like below,the keys must be in lowercase as below:
 		
 		 {
